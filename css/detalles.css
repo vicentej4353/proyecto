@@ -145,13 +145,13 @@ div {
 	background-color: rgb(255, 174, 127);
 }
 
-#texto {
+.text1 {
 	width: 540px;
 	height: 770px;
 	background-color: rgb(129, 127, 255);
 	float: right;
 	margin-top: 20px;
-	
+	position: absolute;
 
 }
 
@@ -176,10 +176,20 @@ margin-top: 20px;
 }
 
 
-.titulo {
+#central img{
+
+	width: 570px;
+	height: 770px;
+	
+
+
+}
+
+#titulo1 {
 	font-size: 30px;
 	margin-bottom: 15px;
 	margin-top: 10px;
+	position: absolute;
 }
 
 .entrada {
@@ -188,8 +198,8 @@ margin-top: 20px;
 	margin-bottom: 15px;
 }
 
-.texto {
-
+.descripcion h1 {
+position: absolute;
 	font-size: 15px;
 	margin-bottom: 15px;
 }

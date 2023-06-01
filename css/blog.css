@@ -1,150 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-	display: block;
-}
-
-body {
-	line-height: 1;
-}
-
-ol,
-ul {
-	list-style: none;
-}
-
-blockquote,
-q {
-	quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-	content: '';
-	content: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-div {
-	border: 1px
-}
-
-
-
 #dos {
-
-	width: 1170px;
+	float: right;
+	width: 340px;
 	height: 1250px;
-	background-color: rgb(255, 174, 127);
+	background-color: #29ee22;
+	position: relative;
 }
 
 #apartado>div {
@@ -156,18 +15,20 @@ div {
 
 }
 
-#apartado>div a {
+
+
+
+#apartado>div>img {
 	width: 200px;
 	height: 190px;
 	float: left;
-	background-color: aquamarine;
+	background-color: rgb(235, 26, 182);
 	margin-left: 20px;
 	margin-top: 20px;
-
-
 }
 
-#apartado #letra #iconos{
+
+#apartado #letra #iconos {
 	height: 30px;
 	width: 580px;
 	background-color: #e5e5e5;
@@ -176,31 +37,1045 @@ div {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	
 
-	
-	
+
+
+
+}
+
+#dos #cuadrado1 {
+	height: 80px;
+	width: 320px;
+	background-color: #e5e5e5;
+
+
+}
+
+.buscador {
+
+	height: 30px;
+	width: 320px;
+	background-color: #e5e5e5;
+	position: absolute;
+	margin-top: 20px;
+
+}
+
+.buscador input[type="text"] {
+	border: 1px solid #ccc;
+	height: 16px;
+	width: 280px;
+
 }
 
 
-.tupu{
+.buscador a {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 424px;
+	background-position-y: 2px;
+	margin-bottom: 10px;
+
+
+}
+
+
+
+#dos #cuadrado2 {
+	height: 240px;
+	width: 320px;
+	background-color: #e5e5e5;
+
+
+}
+
+
+div .categorias1 {
+	height: 40px;
+	width: 320px;
+	background-color: white;
+	float: right;
+	display: flex;
+	align-items: center;
+	border-top: 1px dashed gray;
+	border-bottom: 1px dashed gray;
+}
+
+div .categorias1 p {
+
+	text-align: left;
+	margin-left: 20px;
+
+}
+
+
+
+div .cuadradodesign {
+	height: 40px;
+	width: 320px;
+	background-color: #e5e5e5;
+	float: right;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px dashed gray;
+	margin-top: 10px;
+	position: relative;
+}
+
+
+div .cuadradodesign .design {
+
+	text-align: left;
+	margin-left: 5px;
+	text-decoration: none;
+	color: chocolate;
+}
+
+.cuadradodesign .iconodesign {
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 0px;
+	background-position-y: -94px;
+	margin-left: 20px;
+}
+
+
+div .cuadradoillustration {
+	height: 40px;
+	width: 320px;
+	background-color: #e5e5e5;
+	float: right;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px dashed gray;
+	position: relative;
+}
+
+
+.illustration {
+
+	text-align: left;
+	margin-left: 5px;
+	text-decoration: none;
+	color: chocolate;
+}
+
+.cuadradoillustration .iconoillustration {
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 0px;
+	background-position-y: -94px;
+	margin-left: 20px;
+}
+
+
+
+div .cuadradotutorials {
+	height: 40px;
+	width: 320px;
+	background-color: #e5e5e5;
+	float: right;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px dashed gray;
+	position: relative;
+}
+
+
+.tutorials {
+
+	text-align: left;
+	margin-left: 5px;
+	text-decoration: none;
+	color: chocolate;
+}
+
+.cuadradotutorials .iconotutorials {
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 0px;
+	background-position-y: -94px;
+	margin-left: 20px;
+}
+
+div .cuadradonews {
+	height: 40px;
+	width: 320px;
+	background-color: #e5e5e5;
+	float: right;
+	display: flex;
+	align-items: center;
+	position: relative;
+
+}
+
+
+.news {
+
+	text-align: left;
+	margin-left: 5px;
+	text-decoration: none;
+	color: chocolate;
+}
+
+.cuadradonews .icononews {
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 0px;
+	background-position-y: -94px;
+	margin-left: 20px;
+}
+
+
+#dos #cuadrado3 {
+	height: 300px;
+	width: 320px;
+	background-color: #e5e5e5;
+	position: absolute;
+}
+
+
+div .popularposts {
+	height: 40px;
+	width: 320px;
+	background-color: white;
+	float: right;
+	display: flex;
+	align-items: center;
+	border-top: 1px dashed gray;
+	border-bottom: 1px dashed gray;
+}
+
+div .popularposts p {
+
+	text-align: left;
+	margin-left: 20px;
+
+}
+
+
+
+.cuadradoimagen1 {
+	height: 60px;
+	width: 60px;
+	background-color: rgb(83, 221, 19);
+	position: absolute;
+	margin-top: 60px;
+
+}
+
+
+.cuadradoimagen2 {
+	height: 60px;
+	width: 60px;
+	background-color: rgb(83, 221, 19);
+	position: relative;
+	margin-top: 140px;
+
+}
+
+
+.cuadradoimagen3 {
+	height: 60px;
+	width: 60px;
+	background-color: rgb(83, 221, 19);
+	position: relative;
+	margin-top: 20px;
+
+}
+
+
+#dos #cuadrado4 {
+	height: 300px;
+	width: 320px;
+	background-color: #e5e5e5;
+	position: absolute;
+	margin-top: 300px;
+
+}
+
+
+div .moreinfo {
+	height: 40px;
+	width: 320px;
+	background-color: white;
+	float: right;
+	display: flex;
+	align-items: center;
+	border-top: 1px dashed gray;
+	border-bottom: 1px dashed gray;
+}
+
+div .moreinfo p {
+
+	text-align: left;
+	margin-left: 20px;
+
+}
+
+
+.cuadradocomments {
+	height: 40px;
+	width: 100px;
+	background-color: white;
+	position: relative;
+	float: left;
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	border-top: 1px dashed gray;
+	border-style: ridge;
+	border-right: 1px dashed gray;
+	border-style: ridge;
+	border-left: 1px dashed gray;
+	border-style: ridge;
+
+}
+
+
+.cuadradocomments .comments {
+	margin-left: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+
+.cuadradotweets {
+	height: 40px;
+	width: 216px;
+	background-color: #e5e5e5;
+	position: relative;
+	float: right;
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	border-bottom: 1px dashed gray;
+	border-style: ridge;
+}
+
+
+.cuadradotweets .tweets {
+	margin-left: 10px;
+	text-decoration: none;
+	color: orange;
+}
+
+
+
+#rectangulosadmins>div {
+	height: 30px;
+	width: 320px;
+	background-color: #e5e5e5;
+	float: right;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px dashed gray;
+
+}
+
+
+.rectanguloadminon1 {
+margin-top: 10px;
+
+}
+
+
+
+.iconocomments1{
+	
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 232px;
+	background-position-y: 41px;
+	margin-left: 10px;
+
+}
+
+
+
+.iconocomments2{
+	
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 232px;
+	background-position-y: 41px;
+	margin-left: 10px;
+
+}
+
+
+.iconocomments3{
+	
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 232px;
+	background-position-y: 41px;
+	margin-left: 10px;
+
+}
+
+
+
+.iconocomments4{
+	
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 232px;
+	background-position-y: 41px;
+	margin-left: 10px;
+
+}
+
+
+.iconocomments5{
+	
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 232px;
+	background-position-y: 41px;
+	margin-left: 10px;
+
+}
+
+
+#rectangulosadmins p{
+	margin-left: 10px;
+
+
+}
+
+#dos #cuadrado5 {
+	height: 330px;
+	width: 320px;
+	background-color: #e5e5e5;
+	position: absolute;
+	bottom: 0%;
+
+}
+
+
+div .videowidget {
+	height: 40px;
+	width: 320px;
+	background-color: white;
+	float: right;
+	display: flex;
+	align-items: center;
+	border-top: 1px dashed gray;
+	border-bottom: 1px dashed gray;
+	position: absolute;
+}
+
+
+div .videowidget p{
+	margin-left: 20px;
+}
+
+
+.video{
+	height: 220px;
+	width: 320px;
+background-color: #3b1010;
+position: absolute;
+bottom: 0%;
+margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#apartado #letra1 #iconos1 {
+	height: 30px;
+	width: 580px;
+	background-color: #e5e5e5;
+	position: absolute;
+
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+
+
+
+}
+
+#apartado #letra2 #iconos2 {
+	height: 30px;
+	width: 580px;
+	background-color: #e5e5e5;
+	position: absolute;
+
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+
+
+
+}
+
+
+#apartado #letra3 #iconos3 {
+	height: 30px;
+	width: 580px;
+	background-color: #e5e5e5;
+	position: absolute;
+
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+
+
+
+}
+
+#apartado #letra4 #iconos4 {
+	height: 30px;
+	width: 580px;
+	background-color: #e5e5e5;
+	position: absolute;
+
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+
+
+
+}
+
+.tupu {
+	height: 30px;
+	width: 120px;
+	background-color: #e5e5e5;
+	position: absolute;
+	border-right: 1px dashed gray;
+
+
+}
+
+.tupu13 {
+	height: 30px;
+	width: 120px;
+	background-color: #e5e5e5;
+	position: absolute;
+	border-right: 1px dashed gray;
+
+
+}
+
+.tupu17 {
+	height: 30px;
+	width: 120px;
+	background-color: #e5e5e5;
+	position: absolute;
+	border-right: 1px dashed gray;
+
+
+}
+
+.tupu9 {
+	height: 30px;
+	width: 120px;
+	background-color: #e5e5e5;
+	position: absolute;
+	border-right: 1px dashed gray;
+
+
+}
+
+.tupu1 {
+	height: 30px;
+	width: 110px;
+	background-color: #e5e5e5;
+	position: absolute;
+	border-right: 1px dashed gray;
+	left: 121px;
+
+
+
+
+}
+
+.tupu10 {
+	height: 30px;
+	width: 110px;
+	background-color: #e5e5e5;
+	position: absolute;
+	border-right: 1px dashed gray;
+	left: 121px;
+
+
+
+
+}
+
+.tupu14 {
+	height: 30px;
+	width: 110px;
+	background-color: #e5e5e5;
+	position: absolute;
+	border-right: 1px dashed gray;
+	left: 121px;
+
+
+
+
+}
+
+.tupu18 {
+	height: 30px;
+	width: 110px;
+	background-color: #e5e5e5;
+	position: absolute;
+	border-right: 1px dashed gray;
+	left: 121px;
+
+
+
+
+}
+
+.tupu1 p {
+	top: 8px;
+	position: absolute;
+	right: 10px;
+}
+
+.tupu10 p {
+	top: 8px;
+	position: absolute;
+	right: 10px;
+}
+
+
+.tupu14 p {
+	top: 8px;
+	position: absolute;
+	right: 10px;
+}
+
+.tupu18 p {
+	top: 8px;
+	position: absolute;
+	right: 10px;
+}
+
+#iconos .tupu1 .icono2 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 304px;
+	background-position-y: 2px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+#iconos1 .tupu6 .icono6 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 304px;
+	background-position-y: 2px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+#iconos2 .tupu10 .icono10 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 304px;
+	background-position-y: 2px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+#iconos3 .tupu14 .icono14 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 304px;
+	background-position-y: 2px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+#iconos4 .tupu18 .icono18 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 304px;
+	background-position-y: 2px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+.tupu2 {
 	height: 30px;
 	width: 140px;
 	background-color: #e5e5e5;
 	position: absolute;
 	border-right: 1px dashed gray;
-	
-			
+	left: 232px;
 }
 
-.tupu p{
-	top:8px;
-position: absolute;
-right: 30px;
+.tupu11 {
+	height: 30px;
+	width: 140px;
+	background-color: #e5e5e5;
+	position: absolute;
+	border-right: 1px dashed gray;
+	left: 232px;
+}
+
+.tupu15 {
+	height: 30px;
+	width: 140px;
+	background-color: #e5e5e5;
+	position: absolute;
+	border-right: 1px dashed gray;
+	left: 232px;
+}
+
+.tupu19 {
+	height: 30px;
+	width: 140px;
+	background-color: #e5e5e5;
+	position: absolute;
+	border-right: 1px dashed gray;
+	left: 232px;
+}
+
+.tupu2 p {
+	top: 8px;
+	position: absolute;
+	right: 10px;
+}
+
+.tupu11 p {
+	top: 8px;
+	position: absolute;
+	right: 10px;
+}
+
+.tupu15 p {
+	top: 8px;
+	position: absolute;
+	right: 10px;
+}
+
+.tupu19 p {
+	top: 8px;
+	position: absolute;
+	right: 10px;
+}
+
+#iconos .tupu2 .icono3 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 232px;
+	background-position-y: 41px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+
 
 }
 
-#iconos .tupu .icono1{
+#iconos2 .tupu11 .icono11 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 232px;
+	background-position-y: 41px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+
+
+}
+
+#iconos3 .tupu15 .icono15 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 232px;
+	background-position-y: 41px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+
+
+}
+
+#iconos4 .tupu19 .icono19 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 232px;
+	background-position-y: 41px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+
+
+}
+
+
+.tupu3 {
+	height: 30px;
+	width: 190px;
+	background-color: #e5e5e5;
+	position: absolute;
+
+	left: 373px;
+}
+
+.tupu12 {
+	height: 30px;
+	width: 190px;
+	background-color: #e5e5e5;
+	position: absolute;
+
+	left: 373px;
+}
+
+.tupu16 {
+	height: 30px;
+	width: 190px;
+	background-color: #e5e5e5;
+	position: absolute;
+
+	left: 373px;
+}
+
+.tupu20 {
+	height: 30px;
+	width: 190px;
+	background-color: #e5e5e5;
+	position: absolute;
+
+	left: 373px;
+}
+
+.tupu3 p {
+	top: 8px;
+	position: absolute;
+	right: 10px;
+}
+
+.tupu12 p {
+	top: 8px;
+	position: absolute;
+	right: 10px;
+}
+
+.tupu16 p {
+	top: 8px;
+	position: absolute;
+	right: 10px;
+}
+
+.tupu20 p {
+	top: 8px;
+	position: absolute;
+	right: 10px;
+}
+
+#iconos .tupu3 .icono4 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 448px;
+	background-position-y: 114px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+
+
+}
+
+#iconos2 .tupu12 .icono12 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 448px;
+	background-position-y: 114px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+
+
+}
+
+#iconos3 .tupu16 .icono16 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 448px;
+	background-position-y: 114px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+
+
+}
+
+#iconos4 .tupu20 .icono20 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 448px;
+	background-position-y: 114px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+
+
+}
+
+.tupu p {
+	top: 8px;
+	position: absolute;
+	right: 15px;
+
+}
+
+.tupu9 p {
+	top: 8px;
+	position: absolute;
+	right: 15px;
+
+}
+
+.tupu13 p {
+	top: 8px;
+	position: absolute;
+	right: 15px;
+
+}
+
+.tupu17 p {
+	top: 8px;
+	position: absolute;
+	right: 15px;
+
+}
+
+#iconos .tupu .icono1 {
 	position: absolute;
 	width: 20px;
 	height: 20px;
@@ -210,15 +1085,99 @@ right: 30px;
 	background-position-x: 280px;
 	background-position-y: 41px;
 	margin-bottom: 5px;
-  
-  
-  
+	margin-left: 20px;
+
+
 
 }
 
+#iconos2 .tupu9 .icono9 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 280px;
+	background-position-y: 41px;
+	margin-bottom: 5px;
+	margin-left: 20px;
 
 
-#apartado #letra{
+
+}
+
+#iconos3 .tupu13 .icono13 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 280px;
+	background-position-y: 41px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+
+
+
+}
+
+#iconos4 .tupu17 .icono17 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 280px;
+	background-position-y: 41px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+
+
+
+}
+
+#apartado #letra {
+
+	width: 580px;
+	height: 210px;
+	background-color: #e5e5e5;
+	float: right;
+	position: relative;
+}
+
+
+#apartado #letra1 {
+
+	width: 580px;
+	height: 210px;
+	background-color: #e5e5e5;
+	float: right;
+	position: relative;
+}
+
+#apartado #letra2 {
+
+	width: 580px;
+	height: 210px;
+	background-color: #e5e5e5;
+	float: right;
+	position: relative;
+}
+
+
+#apartado #letra3 {
+
+	width: 580px;
+	height: 210px;
+	background-color: #e5e5e5;
+	float: right;
+	position: relative;
+}
+
+#apartado #letra4 {
 
 	width: 580px;
 	height: 210px;
@@ -234,8 +1193,48 @@ right: 30px;
 	background-color: black;
 	border-radius: 10px;
 	text-decoration: none;
+	margin-left: 20px;
 }
 
+#boton2 .botonread2 {
+
+	width: 100px;
+	height: 30px;
+	background-color: black;
+	border-radius: 10px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+#boton3 .botonread3 {
+
+	width: 100px;
+	height: 30px;
+	background-color: black;
+	border-radius: 10px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+#boton4 .botonread4 {
+
+	width: 100px;
+	height: 30px;
+	background-color: black;
+	border-radius: 10px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+#boton5 .botonread5 {
+
+	width: 100px;
+	height: 30px;
+	background-color: black;
+	border-radius: 10px;
+	text-decoration: none;
+	margin-left: 20px;
+}
 
 div.texto1 {
 	width: 580px;
@@ -243,6 +1242,36 @@ div.texto1 {
 	background-color: #e5e5e5;
 	float: right;
 }
+
+
+div.texto2 {
+	width: 580px;
+	height: 60px;
+	background-color: #e5e5e5;
+	float: right;
+}
+
+div.texto3 {
+	width: 580px;
+	height: 60px;
+	background-color: #e5e5e5;
+	float: right;
+}
+
+div.texto4 {
+	width: 580px;
+	height: 60px;
+	background-color: #e5e5e5;
+	float: right;
+}
+
+div.texto5 {
+	width: 580px;
+	height: 60px;
+	background-color: #e5e5e5;
+	float: right;
+}
+
 
 #boton1 a {
 
@@ -253,11 +1282,46 @@ div.texto1 {
 
 }
 
+#boton2 a {
 
+	color: white;
+	justify-content: center;
+	display: flex;
+	align-items: center;
 
+}
 
+#boton3 a {
 
+	color: white;
+	justify-content: center;
+	display: flex;
+	align-items: center;
 
+}
+
+#boton4 a {
+
+	color: white;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+
+}
+
+#boton5 a {
+
+	color: white;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+
+}
+
+div.texto2 p {
+	margin-top: 10px;
+	margin-left: 20px;
+}
 
 
 
@@ -266,7 +1330,71 @@ div.texto1 p {
 	margin-left: 20px;
 }
 
+
+div.texto3 p {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+div.texto4 p {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+div.texto5 p {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
 div .rectangulo1 {
+	height: 40px;
+	width: 580px;
+	margin-top: 20px;
+	background-color: white;
+	float: right;
+	display: flex;
+	align-items: center;
+	border-top: 1px dashed gray;
+	border-bottom: 1px dashed gray;
+}
+
+div .rectangulo2 {
+	height: 40px;
+	width: 580px;
+	margin-top: 20px;
+	background-color: white;
+	float: right;
+	display: flex;
+	align-items: center;
+	border-top: 1px dashed gray;
+	border-bottom: 1px dashed gray;
+}
+
+div .rectangulo3 {
+	height: 40px;
+	width: 580px;
+	margin-top: 20px;
+	background-color: white;
+	float: right;
+	display: flex;
+	align-items: center;
+	border-top: 1px dashed gray;
+	border-bottom: 1px dashed gray;
+}
+
+div .rectangulo4 {
+	height: 40px;
+	width: 580px;
+	margin-top: 20px;
+	background-color: white;
+	float: right;
+	display: flex;
+	align-items: center;
+	border-top: 1px dashed gray;
+	border-bottom: 1px dashed gray;
+}
+
+div .rectangulo5 {
 	height: 40px;
 	width: 580px;
 	margin-top: 20px;
@@ -285,12 +1413,38 @@ div .rectangulo1 p {
 
 }
 
+div .rectangulo2 p {
 
+	text-align: left;
+	margin-left: 20px;
+
+}
+
+div .rectangulo3 p {
+
+	text-align: left;
+	margin-left: 20px;
+
+}
+
+div .rectangulo4 p {
+
+	text-align: left;
+	margin-left: 20px;
+
+}
+
+div .rectangulo5 p {
+
+	text-align: left;
+	margin-left: 20px;
+
+}
 
 #imagen {
 	width: 570px;
 	height: 770px;
-	background-color: aquamarine;
+	background-color: #e5e5e5;
 	float: left;
 	margin-top: 20px;
 	margin-left: 20px;
@@ -303,18 +1457,19 @@ div {
 div#contenedor {
 	width: 1170px;
 	margin: 0px auto;
-	background-color: antiquewhite;
+	background-color: #e5e5e5;
+	height: 1600px;
 }
 
 div#encabezado {
 	height: 55px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	background-color: aquamarine;
+	background-color: #e5e5e5;
 }
 
 div.logo {
-	background-color: blue blue;
+	background-color: #e5e5e5;
 	width: 470px;
 	height: 55px;
 	float: left;
@@ -410,10 +1565,9 @@ a li:hover .submenu {
 
 #pie {
 	width: 1170px;
-	margin: 0px auto;
+	
 	height: 400px;
-	background-color: rgb(5, 5, 5);
-	bottom: -113%;
+	background-color: #e5e5e5;
 	position: absolute;
 }
 
@@ -681,4 +1835,173 @@ div.pie6 {
 
 .co:hover {
 	color: orange;
+}
+
+
+
+
+
+
+
+#apartado #letra1 #iconos1 {
+	height: 30px;
+	width: 580px;
+	background-color: #e5e5e5;
+	position: absolute;
+
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+
+
+
+}
+
+#apartado #letra1 #iconos1 {
+	height: 30px;
+	width: 580px;
+	background-color: #e5e5e5;
+	position: absolute;
+
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+
+
+
+}
+
+.tupu5 {
+	height: 30px;
+	width: 120px;
+	background-color: #e5e5e5;
+	position: absolute;
+	border-right: 1px dashed gray;
+
+
+}
+
+
+.tupu6 {
+	height: 30px;
+	width: 110px;
+	background-color: #e5e5e5;
+	position: absolute;
+	border-right: 1px dashed gray;
+	left: 121px;
+
+
+
+
+}
+
+
+.tupu6 p {
+	top: 8px;
+	position: absolute;
+	right: 10px;
+}
+
+#iconos .tupu6 .icono6 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 304px;
+	background-position-y: 2px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+
+.tupu7 {
+	height: 30px;
+	width: 140px;
+	background-color: #e5e5e5;
+	position: absolute;
+	border-right: 1px dashed gray;
+	left: 232px;
+}
+
+.tupu7 p {
+	top: 8px;
+	position: absolute;
+	right: 10px;
+}
+
+#iconos1 .tupu7 .icono7 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 232px;
+	background-position-y: 41px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+
+
+}
+
+
+.tupu8 {
+	height: 30px;
+	width: 190px;
+	background-color: #e5e5e5;
+	position: absolute;
+
+	left: 373px;
+}
+
+.tupu8 p {
+	top: 8px;
+	position: absolute;
+	right: 10px;
+}
+
+
+#iconos1 .tupu8 .icono8 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 448px;
+	background-position-y: 114px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+
+
+}
+
+
+
+
+.tupu5 p {
+	top: 8px;
+	position: absolute;
+	right: 15px;
+
+}
+
+#iconos1 .tupu5 .icono5 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e5e5e5;
+	background-image: url(../img/glyphicons-halflings.png);
+	bottom: 0%;
+	background-position-x: 280px;
+	background-position-y: 41px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+
+
+
 }

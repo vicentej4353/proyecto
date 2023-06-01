@@ -107,13 +107,11 @@ $sql_detalles = $conexion -> query("SELECT * FROM detalles");
 
             <a href="detalles.php?id_detalle=<?php echo $id;?>">
                 <li id="n1">
-                    <img src="../img/<?php echo $imagen;?>" alt="barcelona.jpg" width="220px" height="220px">
+                    <img src="../img/<?php echo $imagen;?>" alt="barcelona.jpg" width="270px" height="220px">
                     <a class="lupa"></a>
-                    <a  href="./detalles.html" class="boton"></a>
+                    <a  href="detalles.php?id_detalle=<?php echo $id;?>" class="boton"></a>
                     <div class="descripcion">descripcion</div>
                 </li>
-
-			
             <?php } ?>
                 
             </ul>

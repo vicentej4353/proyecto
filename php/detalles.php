@@ -89,34 +89,63 @@ $sql_detalles = $conexion->query("SELECT * FROM detalles WHERE id=$id_detalle");
                 $descripcion = $fila[2];
                 $imagen = $fila[3];
                 $texto = $fila[4];
+                $date = $fila[5];
+                $client = $fila[6];
+                $services = $fila[7];
+                $artdirector = $fila[8];
+                $designer = $fila[9];
                 ?>
                 <div id="central">
-                    <div>
-                        <img width="570px" height="770px" src="../img/<?php echo $imagen; ?> " />
+
+                    <img width="570px" height="770px" src="../img/<?php echo $imagen; ?> " />
 
 
-                        <div class="text1">
-                            <div id="titulo1">
-                                <h1>
-                                    <?php echo $titulo; ?>
-                                </h1>
+                    <div class="text1">
+                        <div id="titulo1">
+                            <h1>
+                                <?php echo $titulo; ?>
+                            </h1>
+                        </div>
+                        <div class="descripcion">
+                            <h1>
+                                <?php echo $descripcion; ?>
+                            </h1>
+                        </div>
+                        <div class="texto">
+                            <h1>
+                                <?php echo $texto; ?>
+                            </h1>
+                        </div>
+                        <div id="repetir">
+                            <div class="uno">
+                                <h1>DATE:</h1>
+                                <?php echo $date; ?>
                             </div>
-                            <div class="descripcion">
-                                <h1>
-                                    <?php echo $descripcion; ?>
-                                </h1>
+
+
+                            <div class="dos">
+                                <h1>CLIENT:</h1>
+                                <?php echo $client; ?>
                             </div>
-                            <div class="texto">
-                                <h1>
-                                    <?php echo $texto; ?>
-                                </h1>
+                            <div class="tres">
+                                <h1>SERVICES:</h1>
+                                <?php echo $services; ?>
+                            </div>
+                            <div class="cuatro">
+                                <h1>ART DIRECTOR:</h1>
+                                <?php echo $artdirector; ?>
+                            </div>
+                            <div class="cinco">
+                                <h1>DESIGNER:</h1>
+                                <?php echo $designer; ?>
                             </div>
 
                         </div>
-                        <a href="index.php" class="boton-volver">Back</a>
-
-                        <a href="#" class="boton-mas-informacion">More Info</a>
                     </div>
+                    <a href="index.php" class="boton-volver">Back</a>
+
+                    <a href="#" class="boton-mas-informacion">More Info</a>
+
                 </div>
             </div>
         <?php } ?>

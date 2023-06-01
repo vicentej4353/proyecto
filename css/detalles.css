@@ -134,15 +134,13 @@ table {
 	border-spacing: 0;
 }
 
-div {
-	border: 1px
-}
 
 #dos {
-
+position: absolute;
 	width: 1170px;
 	height: 820px;
-	background-color: rgb(255, 174, 127);
+	background-color: rgb(168, 255, 127);
+	
 }
 
 .text1 {
@@ -150,9 +148,6 @@ div {
 	height: 770px;
 	background-color: rgb(129, 127, 255);
 	float: right;
-	margin-top: 20px;
-	position: absolute;
-
 }
 
 
@@ -175,7 +170,13 @@ margin-top: 20px;
 
 }
 
+#central {
 
+	position: absolute;
+	width: 1170px;
+	height: 820px;
+
+}
 #central img{
 
 	width: 570px;
@@ -185,11 +186,28 @@ margin-top: 20px;
 
 }
 
-#titulo1 {
+div.texto {
+	width: 540px;
+	height: 100px;
+background-color: chocolate;
+
+
+font-size: 15px;
+position: relative;
+margin-top: 200px;
+}
+
+
+
+
+div#titulo1 {
 	font-size: 30px;
-	margin-bottom: 15px;
+	
 	margin-top: 10px;
-	position: absolute;
+	position: relative;
+	width: 540px;
+	height: 80px;
+	background-color: #d8450b;
 }
 
 .entrada {
@@ -198,11 +216,44 @@ margin-top: 20px;
 	margin-bottom: 15px;
 }
 
-.descripcion h1 {
-position: absolute;
-	font-size: 15px;
-	margin-bottom: 15px;
+div.descripcion {
+	
+	position: relative;
+	width: 540px;
+	height: 80px;
+	background-color: #0bcad8;
+	font-size: 20px;
+	margin-top: -170px;
+	
 }
+
+
+div.uno{
+	display: flex;
+	align-items: center;
+}
+
+div.dos{
+	display: flex;
+	align-items: center;
+}
+
+div.tres{
+	display: flex;
+	align-items: center;
+}
+
+div.cuatro{
+	display: flex;
+	align-items: center;
+}
+
+div.cinco{
+	display: flex;
+	align-items: center;
+}
+
+
 
 #imagen {
 	width: 570px;

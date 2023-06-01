@@ -2,23 +2,19 @@
 	float: right;
 	width: 340px;
 	height: 1250px;
-	background-color: #29ee22;
-	position: relative;
+	background-color: rgb(243, 97, 13);
 }
 
 #apartado>div {
 
 	width: 800px;
 	height: 250px;
-	background-color: #e5e5e5;
+	background-color: #f01c1c;
 
 
 }
 
-
-
-
-#apartado>div>img {
+#apartado>div>a {
 	width: 200px;
 	height: 190px;
 	float: left;
@@ -45,31 +41,31 @@
 
 #dos #cuadrado1 {
 	height: 80px;
-	width: 320px;
+	width: 340px;
 	background-color: #e5e5e5;
 
 
 }
 
 .buscador {
-
+	
 	height: 30px;
 	width: 320px;
 	background-color: #e5e5e5;
 	position: absolute;
 	margin-top: 20px;
-
+	
 }
 
 .buscador input[type="text"] {
 	border: 1px solid #ccc;
 	height: 16px;
 	width: 280px;
-
+	
 }
 
 
-.buscador a {
+.buscador a{
 	position: absolute;
 	width: 20px;
 	height: 20px;
@@ -87,7 +83,7 @@
 
 #dos #cuadrado2 {
 	height: 240px;
-	width: 320px;
+	width: 340px;
 	background-color: #e5e5e5;
 
 
@@ -96,7 +92,7 @@
 
 div .categorias1 {
 	height: 40px;
-	width: 320px;
+	width: 340px;
 	background-color: white;
 	float: right;
 	display: flex;
@@ -116,7 +112,7 @@ div .categorias1 p {
 
 div .cuadradodesign {
 	height: 40px;
-	width: 320px;
+	width: 340px;
 	background-color: #e5e5e5;
 	float: right;
 	display: flex;
@@ -149,7 +145,7 @@ div .cuadradodesign .design {
 
 div .cuadradoillustration {
 	height: 40px;
-	width: 320px;
+	width: 340px;
 	background-color: #e5e5e5;
 	float: right;
 	display: flex;
@@ -182,7 +178,7 @@ div .cuadradoillustration {
 
 div .cuadradotutorials {
 	height: 40px;
-	width: 320px;
+	width: 340px;
 	background-color: #e5e5e5;
 	float: right;
 	display: flex;
@@ -213,13 +209,13 @@ div .cuadradotutorials {
 
 div .cuadradonews {
 	height: 40px;
-	width: 320px;
+	width: 340px;
 	background-color: #e5e5e5;
 	float: right;
 	display: flex;
 	align-items: center;
 	position: relative;
-
+	
 }
 
 
@@ -245,15 +241,15 @@ div .cuadradonews {
 
 #dos #cuadrado3 {
 	height: 300px;
-	width: 320px;
-	background-color: #e5e5e5;
+	width: 340px;
+	background-color: #cc1818;
 	position: absolute;
 }
 
 
 div .popularposts {
 	height: 40px;
-	width: 320px;
+	width: 340px;
 	background-color: white;
 	float: right;
 	display: flex;
@@ -271,7 +267,7 @@ div .popularposts p {
 
 
 
-.cuadradoimagen1 {
+.cuadradoimagen1{
 	height: 60px;
 	width: 60px;
 	background-color: rgb(83, 221, 19);
@@ -281,7 +277,7 @@ div .popularposts p {
 }
 
 
-.cuadradoimagen2 {
+.cuadradoimagen2{
 	height: 60px;
 	width: 60px;
 	background-color: rgb(83, 221, 19);
@@ -291,7 +287,7 @@ div .popularposts p {
 }
 
 
-.cuadradoimagen3 {
+.cuadradoimagen3{
 	height: 60px;
 	width: 60px;
 	background-color: rgb(83, 221, 19);
@@ -303,8 +299,8 @@ div .popularposts p {
 
 #dos #cuadrado4 {
 	height: 300px;
-	width: 320px;
-	background-color: #e5e5e5;
+	width: 340px;
+	background-color: #18cc96;
 	position: absolute;
 	margin-top: 300px;
 
@@ -313,7 +309,7 @@ div .popularposts p {
 
 div .moreinfo {
 	height: 40px;
-	width: 320px;
+	width: 340px;
 	background-color: white;
 	float: right;
 	display: flex;
@@ -328,199 +324,6 @@ div .moreinfo p {
 	margin-left: 20px;
 
 }
-
-
-.cuadradocomments {
-	height: 40px;
-	width: 100px;
-	background-color: white;
-	position: relative;
-	float: left;
-	display: flex;
-	align-items: center;
-	margin-top: 20px;
-	border-top: 1px dashed gray;
-	border-style: ridge;
-	border-right: 1px dashed gray;
-	border-style: ridge;
-	border-left: 1px dashed gray;
-	border-style: ridge;
-
-}
-
-
-.cuadradocomments .comments {
-	margin-left: 10px;
-	text-decoration: none;
-	color: black;
-}
-
-
-.cuadradotweets {
-	height: 40px;
-	width: 216px;
-	background-color: #e5e5e5;
-	position: relative;
-	float: right;
-	display: flex;
-	align-items: center;
-	margin-top: 20px;
-	border-bottom: 1px dashed gray;
-	border-style: ridge;
-}
-
-
-.cuadradotweets .tweets {
-	margin-left: 10px;
-	text-decoration: none;
-	color: orange;
-}
-
-
-
-#rectangulosadmins>div {
-	height: 30px;
-	width: 320px;
-	background-color: #e5e5e5;
-	float: right;
-	display: flex;
-	align-items: center;
-	border-bottom: 1px dashed gray;
-
-}
-
-
-.rectanguloadminon1 {
-margin-top: 10px;
-
-}
-
-
-
-.iconocomments1{
-	
-	width: 20px;
-	height: 20px;
-	background-color: #e5e5e5;
-	background-image: url(../img/glyphicons-halflings.png);
-	bottom: 0%;
-	background-position-x: 232px;
-	background-position-y: 41px;
-	margin-left: 10px;
-
-}
-
-
-
-.iconocomments2{
-	
-	width: 20px;
-	height: 20px;
-	background-color: #e5e5e5;
-	background-image: url(../img/glyphicons-halflings.png);
-	bottom: 0%;
-	background-position-x: 232px;
-	background-position-y: 41px;
-	margin-left: 10px;
-
-}
-
-
-.iconocomments3{
-	
-	width: 20px;
-	height: 20px;
-	background-color: #e5e5e5;
-	background-image: url(../img/glyphicons-halflings.png);
-	bottom: 0%;
-	background-position-x: 232px;
-	background-position-y: 41px;
-	margin-left: 10px;
-
-}
-
-
-
-.iconocomments4{
-	
-	width: 20px;
-	height: 20px;
-	background-color: #e5e5e5;
-	background-image: url(../img/glyphicons-halflings.png);
-	bottom: 0%;
-	background-position-x: 232px;
-	background-position-y: 41px;
-	margin-left: 10px;
-
-}
-
-
-.iconocomments5{
-	
-	width: 20px;
-	height: 20px;
-	background-color: #e5e5e5;
-	background-image: url(../img/glyphicons-halflings.png);
-	bottom: 0%;
-	background-position-x: 232px;
-	background-position-y: 41px;
-	margin-left: 10px;
-
-}
-
-
-#rectangulosadmins p{
-	margin-left: 10px;
-
-
-}
-
-#dos #cuadrado5 {
-	height: 330px;
-	width: 320px;
-	background-color: #e5e5e5;
-	position: absolute;
-	bottom: 0%;
-
-}
-
-
-div .videowidget {
-	height: 40px;
-	width: 320px;
-	background-color: white;
-	float: right;
-	display: flex;
-	align-items: center;
-	border-top: 1px dashed gray;
-	border-bottom: 1px dashed gray;
-	position: absolute;
-}
-
-
-div .videowidget p{
-	margin-left: 20px;
-}
-
-
-.video{
-	height: 220px;
-	width: 320px;
-background-color: #3b1010;
-position: absolute;
-bottom: 0%;
-margin-bottom: 40px;
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -742,19 +545,6 @@ margin-bottom: 40px;
 }
 
 #iconos .tupu1 .icono2 {
-	position: absolute;
-	width: 20px;
-	height: 20px;
-	background-color: #e5e5e5;
-	background-image: url(../img/glyphicons-halflings.png);
-	bottom: 0%;
-	background-position-x: 304px;
-	background-position-y: 2px;
-	margin-bottom: 5px;
-	margin-left: 20px;
-}
-
-#iconos1 .tupu6 .icono6 {
 	position: absolute;
 	width: 20px;
 	height: 20px;
@@ -1444,7 +1234,7 @@ div .rectangulo5 p {
 #imagen {
 	width: 570px;
 	height: 770px;
-	background-color: #e5e5e5;
+	background-color: aquamarine;
 	float: left;
 	margin-top: 20px;
 	margin-left: 20px;
@@ -1458,18 +1248,17 @@ div#contenedor {
 	width: 1170px;
 	margin: 0px auto;
 	background-color: #e5e5e5;
-	height: 1600px;
 }
 
 div#encabezado {
 	height: 55px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	background-color: #e5e5e5;
+	background-color: aquamarine;
 }
 
 div.logo {
-	background-color: #e5e5e5;
+	background-color: blue blue;
 	width: 470px;
 	height: 55px;
 	float: left;
@@ -1565,9 +1354,10 @@ a li:hover .submenu {
 
 #pie {
 	width: 1170px;
-	
+	margin: 0px auto;
 	height: 400px;
-	background-color: #e5e5e5;
+	background-color: rgb(5, 5, 5);
+	bottom: -113%;
 	position: absolute;
 }
 

@@ -1,0 +1,591 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+div {
+	border: 1px
+}
+
+#dos {
+
+	width: 1170px;
+	height: 820px;
+	background-color: rgb(255, 174, 127);
+}
+
+#texto {
+	width: 540px;
+	height: 770px;
+	background-color: rgb(129, 127, 255);
+	float: right;
+	margin-top: 20px;
+	
+
+}
+
+
+.uno{
+margin-top: 20px;
+
+}
+
+
+
+#repetir div{
+	width: 540px;
+	height: 50px;
+	background-color: rgb(127, 255, 165);
+	float: right;
+	border-bottom: 1px solid transparent;
+	border-image: repeating-linear-gradient(to right, transparent, transparent 5px, black 5px, black 10px) 1;
+
+
+
+}
+
+
+.titulo {
+	font-size: 30px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.entrada {
+
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.texto {
+
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+#imagen {
+	width: 570px;
+	height: 770px;
+	background-color: aquamarine;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+div {
+	border: 1px
+}
+
+div#contenedor {
+	width: 1170px;
+	margin: 0px auto;
+	background-color: antiquewhite;
+}
+
+div#encabezado {
+	height: 55px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: aquamarine;
+}
+
+div.logo {
+	background-color: blue blue;
+	width: 470px;
+	height: 55px;
+	float: left;
+}
+
+div.menu {
+	width: 650px;
+	height: 50px;
+	float: right;
+	background-color: white;
+	z-index: 20;
+
+}
+
+
+.container {
+	display: flex;
+	align-items: center;
+	width: 250px;
+	height: 55px;
+}
+
+.image-container {
+	width: 50px;
+	height: 55px;
+}
+
+.text-container {
+	padding-left: 20px;
+}
+
+
+
+.menu {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul {
+	align-items: center;
+}
+
+.menu li {
+	position: relative;
+}
+
+.menu a {
+	color: gray;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+.menu a:hover {
+	background-color: #d8450b;
+	color: #e5e5e5;
+}
+
+.submenu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 200px;
+	background-color: #383838;
+	padding: 10px;
+	display: none;
+	border-bottom: 2px solid #e5e5e5;
+	z-index: 20;
+}
+
+.menu li:hover .submenu {
+
+	display: block;
+}
+
+a li:hover .submenu {
+	color: #383838;
+	display: block;
+}
+
+.submenu li {
+	margin-bottom: 10px;
+}
+
+.submenu a {
+	color: #e5e5e5;
+	text-decoration: none;
+}
+
+
+
+
+#pie {
+	width: 1170px;
+	margin: 0px auto;
+	height: 400px;
+	background-color: rgb(5, 5, 5);
+	bottom: -60%;
+	position: absolute;
+}
+
+
+
+
+.piee>div {
+	list-style: none;
+	position: relative;
+	float: left;
+	border: 1px solid rgb(17, 114, 54);
+	width: 240px;
+	height: 220px;
+	margin: 22px;
+	right: -10px;
+	margin-top: 10px;
+
+}
+
+
+
+#pie>div.pie5 {
+	list-style: none;
+	position: relative;
+	float: left;
+	border: 1px solid rgb(17, 114, 54);
+	width: 1050px;
+	height: 50px;
+	margin: 8px;
+	right: -27px;
+	margin-top: 50px;
+
+}
+
+div.pie6 {
+	list-style: none;
+	position: relative;
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin: 8px;
+	right: -27px;
+	margin-top: 50px;
+
+}
+
+.flecha {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	background-color: rgb(5, 5, 5);
+	background-image: url(../img/back-top-btn.png);
+	bottom: 0%;
+
+
+}
+
+
+.redes {
+	list-style: none;
+	position: relative;
+	float: left;
+	border: 1px solid rgb(17, 114, 54);
+	width: 240px;
+	height: 50px;
+	margin: -11px;
+	right: -10px;
+	margin-top: 90px;
+
+}
+
+.logopeque {
+	width: 116px;
+	height: 40px;
+	margin-top: 50px;
+	background-image: url(../img/20.webp);
+	background-size: cover;
+
+}
+
+
+.f {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	background-color: rgb(5, 5, 5);
+	background-image: url(../img/social-icons.png);
+	bottom: 0%;
+	background-position-x: 0px;
+	background-position-y: 0px;
+}
+
+.f:hover {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	background-color: rgb(5, 5, 5);
+	background-image: url(../img/social-icons.png);
+	bottom: 0%;
+	background-position-x: 0px;
+	background-position-y: -47px;
+}
+
+.p {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	background-color: rgb(5, 5, 5);
+	background-image: url(../img/social-icons.png);
+	bottom: 0%;
+	right: 61%;
+	background-position-x: -51px;
+	background-position-y: 0px;
+}
+
+.p:hover {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	background-color: rgb(5, 5, 5);
+	background-image: url(../img/social-icons.png);
+	bottom: 0%;
+	background-position-x: -51px;
+	background-position-y: -47px;
+}
+
+.g {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	background-color: rgb(5, 5, 5);
+	background-image: url(../img/social-icons.png);
+	bottom: 0%;
+	right: 41%;
+	background-position-x: -104px;
+	background-position-y: 0px;
+}
+
+.g:hover {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	background-color: rgb(5, 5, 5);
+	background-image: url(../img/social-icons.png);
+	bottom: 0%;
+	background-position-x: -104px;
+	background-position-y: -47px;
+}
+
+.w {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	background-color: rgb(5, 5, 5);
+	background-image: url(../img/social-icons.png);
+	bottom: 0%;
+	right: 22%;
+	background-position-x: -155px;
+	background-position-y: 0px;
+}
+
+.w:hover {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	background-color: rgb(5, 5, 5);
+	background-image: url(../img/social-icons.png);
+	bottom: 0%;
+	background-position-x: -155px;
+	background-position-y: -47px;
+}
+
+.s {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	background-color: rgb(5, 5, 5);
+	background-image: url(../img/social-icons.png);
+	bottom: 0%;
+	right: 2%;
+	background-position-x: -207px;
+	background-position-y: 0px;
+}
+
+.s:hover {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	background-color: rgb(5, 5, 5);
+	background-image: url(../img/social-icons.png);
+	bottom: 0%;
+	background-position-x: -207px;
+	background-position-y: -47px;
+}
+
+
+.ho {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	color: white;
+	right: 30%;
+	margin-top: 20px;
+
+}
+
+.ho:hover {
+	color: orange;
+}
+
+
+.fe {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	color: white;
+	right: 24%;
+	margin-top: 20px;
+
+}
+
+.fe:hover {
+	color: orange;
+}
+
+
+.ga {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	color: white;
+	right: 17%;
+	margin-top: 20px;
+
+}
+
+.ga:hover {
+	color: orange;
+}
+
+.bl {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	color: white;
+	right: 10%;
+	margin-top: 20px;
+
+}
+
+.bl:hover {
+	color: orange;
+}
+
+
+.co {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	color: white;
+	right: 5%;
+	margin-top: 20px;
+
+}
+
+.co:hover {
+	color: orange;
+}
